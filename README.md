@@ -9,11 +9,11 @@ By adding this simple plugin to your Sitecore instance, your New Relic will inst
 Screenshots below.
 
 ## Template Names As Transactions:
-![Template Names As Transactions](http://prntscr.com/ivi36l)
+![Template Names As Transactions](https://raw.githubusercontent.com/thesoftwarejedi/r2integrated.sitecore.newrelicinstrumentation/master/screenshots/1.png)
 
 ## Sitecore Metadata Stored On Transactions:
-![Sitecore Metadata Stored On Transactions](http://prntscr.com/ivi4wv)
+![Sitecore Metadata Stored On Transactions](https://raw.githubusercontent.com/thesoftwarejedi/r2integrated.sitecore.newrelicinstrumentation/master/screenshots/2.png)
 
 ## Metrics Captured For Every Rendering:
-![Metrics Captured For Every Rendering](http://prntscr.com/ivi5ho)
+![Metrics Captured For Every Rendering](https://raw.githubusercontent.com/thesoftwarejedi/r2integrated.sitecore.newrelicinstrumentation/master/screenshots/3.png)
 
