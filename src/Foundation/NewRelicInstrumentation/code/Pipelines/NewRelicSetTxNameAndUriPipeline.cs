@@ -11,8 +11,8 @@ namespace R2Integrated.Foundation.NewRelicInstrumentation
             if (Sitecore.Context.Item != null)
             {
                 NewRelic.Api.Agent.NewRelic.AddCustomParameter("Sitecore Item Name", Sitecore.Context.Item.Name);
-                NewRelic.Api.Agent.NewRelic.AddCustomParameter("Sitecore Item Id", Sitecore.Context.Item.ID.ToString());
-                NewRelic.Api.Agent.NewRelic.AddCustomParameter("Sitecore Item Path", Sitecore.Context.Item.Paths.Path.ToString());
+                NewRelic.Api.Agent.NewRelic.AddCustomParameter("Sitecore Item Id", Sitecore.Context.Item.ID?.ToString());
+                NewRelic.Api.Agent.NewRelic.AddCustomParameter("Sitecore Item Path", Sitecore.Context.Item.Paths?.Path?.ToString());
             }
             return;
         }
